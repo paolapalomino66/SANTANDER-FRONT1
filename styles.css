@@ -7,6 +7,7 @@ color: #46484c;
 text-align: center;
 }
 
+
 p {
     color: #8b8b8bcc;
     font-family: Verdana;
@@ -17,3 +18,61 @@ color: #fff;
 background-color: #025157;
 
 }
+
+.header {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right:20px;
+    height: 45px;
+    font-size:0;
+   font-family: sans-serif;
+}
+
+li {
+    display: inline;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    font-family: sans-serif;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+}
+.logo {
+    width: 15%;
+}
+.navbar {
+    width: 70%;
+    text-align: left;
+    color: #025157;
+    font-weight: 500;
+}
+.actions {
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.actions a {
+    color: #025157;
+}
+.actions > *{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.actions button {
+    color: #fff;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 8px;
+}
+
+
+
