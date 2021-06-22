@@ -1,5 +1,6 @@
 body{
     background-color: #f49e47;
+
     background-image:url('https://pro2-bar-s3-cdn-cf.myportfolio.com/67cf45ca-338d-4fd0-943b-32d96162976a/b7b52d14-b827-4c3a-906f-3b94fa13f35f_rw_1920.png');
 }
 h1 {
@@ -74,5 +75,63 @@ li {
     border-radius: 8px;
 }
 
+.publish {
+    /* container styles if any */
 
+}
+.publish h3 {
+    font-family:Verdana, sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
 
+}
+.publish > p {
+font-size: 16px;
+color: #343434;
+line-height: 1.5;
+margin-bottom: 20px;
+}
+.publish > form p {
+    color: #025157;
+    margin-right: 18px;
+
+}
+.publish > form {
+    display: flex;
+}
+.publish > form p {
+    color: #025157;
+    margin-right: 18px;
+}
+
+.promo {
+    display: flex;
+    width: 70%;
+    margin: 100% auto;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.publish {
+    margin-left: 20px;
+}
+
+.explanatory-video img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.explanatory-video img {
+    width: 120px;
+    margin-top: 10px;
+}
+
+.headerfijo {
+    position: fixed;
+    background-color: #fff;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
