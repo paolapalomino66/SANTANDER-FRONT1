@@ -123,7 +123,7 @@ margin-bottom: 20px;
     align-items: center;
 }
 .explanatory-video img {
-    width: 120px;
+    width:100%;
     margin-top: 10px;
 }
 
@@ -148,9 +148,9 @@ margin-bottom: 20px;
  
 }
 
-<style>
+
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;1,800;1,900&family=Alegreya:wght@800&display=swap');
-</style>
+
 
 .postwork .overview {
 padding: 80px;
@@ -329,3 +329,29 @@ left: 400px;
     text-decoration: none;
 }
 
+
+        /** dispositivos móviles en vista viewport (vertical) */
+        @media (max-width: 575px) {
+    .publish > * {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .promo {
+        flex-direction: column;
+        max-width: 90%;
+    }
+    .explanatory-video > video {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .publish {
+        margin-top: 10px;
+    
+    }
+    .publish < h3 {
+        font-size: 25px;
+        line-height: 1.2;
+    }
+    }
